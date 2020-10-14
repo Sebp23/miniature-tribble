@@ -178,16 +178,10 @@
 }
 // entity 1
 {
-"classname" "info_player_start"
-"origin" "-416 1184 56"
-"angle" "0"
-}
-// entity 2
-{
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "608"
+"_tb_id" "760"
 // brush 0
 {
 ( 640 -640 267.62790697674433 ) ( 640 -639.44444444444457 267.62790697674433 ) ( 640 -640 268.50830564784047 ) 64_blood_2 0 0 0 1 1
@@ -414,12 +408,12 @@
 ( 960 -480 46.086378737541537 ) ( 960 -480 46.966777408637768 ) ( 960 -479.44444444444474 46.086378737541537 ) 64_blood_2 0 0 0 1 1
 }
 }
-// entity 3
+// entity 2
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "609"
+"_tb_id" "761"
 // brush 0
 {
 ( 352 -640 281.71428571428567 ) ( 352 -640 282.59468438538215 ) ( 352 -640.5555555555552 281.71428571428567 ) 64_blood_2 0 0 0 1 1
@@ -646,12 +640,12 @@
 ( 96 -480 32 ) ( 96 -480.55555555555543 32 ) ( 96 -480 32.880398671096437 ) 64_blood_2 0 0 0 1 1
 }
 }
-// entity 4
+// entity 3
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "610"
+"_tb_id" "762"
 // brush 0
 {
 ( 640 1248 267.62790697674433 ) ( 640 1248.5555555555554 267.62790697674433 ) ( 640 1248 268.50830564784047 ) 64_blood_2 0 0 0 1 1
@@ -878,12 +872,12 @@
 ( 960 1408 46.086378737541537 ) ( 960 1408 46.966777408637768 ) ( 960 1408.5555555555552 46.086378737541537 ) 64_blood_2 0 0 0 1 1
 }
 }
-// entity 5
+// entity 4
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "611"
+"_tb_id" "763"
 // brush 0
 {
 ( 352 1248 281.71428571428567 ) ( 352 1248 282.59468438538215 ) ( 352 1247.4444444444448 281.71428571428567 ) 64_blood_2 0 0 0 1 1
@@ -1110,12 +1104,12 @@
 ( 96 1408 32 ) ( 96 1407.4444444444446 32 ) ( 96 1408 32.880398671096437 ) 64_blood_2 0 0 0 1 1
 }
 }
-// entity 6
+// entity 5
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "612"
+"_tb_id" "764"
 // brush 0
 {
 ( 632 512 268 ) ( 632 509.33333333333348 268 ) ( 632 512 266.36111111111092 ) 128_honey_3 0 0 0 1 1
@@ -1246,12 +1240,12 @@
 ( 640.18604651162764 352 113 ) ( 640.18604651162786 416 268 ) ( 640.18604651162764 416 113 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 7
+// entity 6
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "613"
+"_tb_id" "765"
 // brush 0
 {
 ( 384 256 32 ) ( 384 253.33333333333326 32 ) ( 384 256 30.361111111111121 ) 128_honey_3 0 0 0 1 1
@@ -1382,12 +1376,12 @@
 ( 392 352 112.81355932203408 ) ( 392 416 112.81355932203408 ) ( 392 392 107.76271186440681 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 8
+// entity 7
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "614"
+"_tb_id" "766"
 // brush 0
 {
 ( 544 256 96 ) ( 544 256 32 ) ( 544 384 32 ) 128_honey_3 0 0 0 1 1
@@ -1518,12 +1512,12 @@
 ( 544 256 112.81355932203408 ) ( 544 248 112.81355932203408 ) ( 544 248.97674418604583 268 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 9
+// entity 8
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "615"
+"_tb_id" "767"
 // brush 0
 {
 ( 384 504 268 ) ( 384 504 266.36111111111092 ) ( 384 504.50000000000006 268 ) 128_honey_3 0 0 0 1 1
@@ -1654,8 +1648,60 @@
 ( 544 504 112.81355932203408 ) ( 544 512.18604651162764 113 ) ( 544 512 112.81355932203408 ) 128_honey_3 0 0 0 1 1
 }
 }
-// entity 10
+// entity 9
 {
 "classname" "weapon_grenadelauncher"
 "origin" "512 384 32"
+}
+// entity 10
+{
+"classname" "info_player_deathmatch"
+"origin" "-416 1216 56"
+}
+// entity 11
+{
+"classname" "info_player_deathmatch"
+"origin" "-416 -448 56"
+}
+// entity 12
+{
+"classname" "info_player_deathmatch"
+"origin" "1440 -448 56"
+"angle" "180"
+}
+// entity 13
+{
+"classname" "info_player_deathmatch"
+"origin" "1432 1216 56"
+"angle" "180"
+}
+// entity 14
+{
+"classname" "info_player_start"
+"origin" "-416 1168 56"
+}
+// entity 15
+{
+"classname" "item_shells"
+"origin" "436 -204 32"
+}
+// entity 16
+{
+"classname" "item_shells"
+"origin" "564 -204 32"
+}
+// entity 17
+{
+"classname" "item_shells"
+"origin" "564 948 32"
+}
+// entity 18
+{
+"classname" "item_shells"
+"origin" "436 948 32"
+}
+// entity 19
+{
+"classname" "item_armor2"
+"origin" "512 384 282"
 }

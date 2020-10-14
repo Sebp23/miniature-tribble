@@ -3,10 +3,9 @@ Input file: miniaturetribblesmap.map
 Output file: miniaturetribblesmap.bsp
 
 ---- LoadMapFile ----
-*** WARNING 06: No info_player_deathmatch entities in level
          1050 faces
           179 brushes
-           11 entities
+           20 entities
             6 unique texnames
            37 texinfo
 
@@ -36,7 +35,7 @@ Processing hull 0...
           597 vis clusters
          1641 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-416 1184 56), no filling performed.
+*** WARNING 10: Reached occupant at (-416 -448 56), no filling performed.
 Leak file written to miniaturetribblesmap.pts
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
@@ -59,7 +58,7 @@ Wrote miniaturetribblesmap.bsp
             6 textures          49228
               lightdata             0
               visdata               0
-              entdata             295
+              entdata             834
 
-0.236 seconds elapsed
-Peak memory usage: 13671642 (13.0M)
+0.240 seconds elapsed
+Peak memory usage: 13672098 (13.0M)
