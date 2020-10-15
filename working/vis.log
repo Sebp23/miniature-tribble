@@ -3,15 +3,15 @@ running with 6 threads
 testlevel = 4
 LoadBSPFile: 'miniaturetribblesmap.bsp'
 BSP is version 29
-   301 leafs
-   853 portals
+   302 leafs
+   857 portals
 Calculating Base Vis:
 0....1....2....3....4....5....6....7....8....9....
 Calculating Full Vis:
 0....1....2....3....4....5....6....7....8....9....
-average leafs visible: 184
+average leafs visible: 185
 c_noclip: 0
-c_chains: 909301
-visdatasize:10163  compressed from 11438
+c_chains: 931377
+visdatasize:10158  compressed from 11476
 Writing miniaturetribblesmap.bsp as BSP version 29
-  0.5 seconds elapsed
+  0.6 seconds elapsed

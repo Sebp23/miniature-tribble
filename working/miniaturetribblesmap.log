@@ -5,7 +5,7 @@ Output file: miniaturetribblesmap.bsp
 ---- LoadMapFile ----
          1050 faces
           179 brushes
-           20 entities
+           33 entities
             6 unique texnames
            37 texinfo
 
@@ -39,9 +39,9 @@ Processing hull 0...
 ---- MergeAll ----
          1169 mergefaces
 ---- SolidBSP ----
-          602 split nodes
+          603 split nodes
           302 solid leafs
-          301 empty leafs
+          302 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
@@ -50,9 +50,9 @@ Processing hull 0...
          2378 leaffaces
          1849 nodefaces
 ---- Portalize ----
-          301 vis leafs
-          301 vis clusters
-          853 vis portals
+          302 vis leafs
+          302 vis clusters
+          857 vis portals
 ---- Tjunc ----
          1292 world edges
          6199 edge points
@@ -66,20 +66,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote miniaturetribblesmap.bsp
-          497 planes             9940
+          501 planes            10020
          2490 vertexes          29880
-          602 nodes             14448
+          603 nodes             14472
            20 texinfo             800
          1849 faces             36980
-         1842 clipnodes         14736
-          302 leafs              8456
+         1853 clipnodes         14824
+          303 leafs              8484
          2378 marksurfaces       4756
          8694 surfedges         34776
          4348 edges             17392
             6 textures          49228
               lightdata             0
               visdata               0
-              entdata            1203
+              entdata            3156
 
-0.283 seconds elapsed
-Peak memory usage: 11474668 (10.9M)
+0.276 seconds elapsed
+Peak memory usage: 11516348 (11.0M)

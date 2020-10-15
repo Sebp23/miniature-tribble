@@ -16,7 +16,31 @@ WARNING: entity at (436 948 32) (item_shells) has "target" set to itself
 WARNING: entity at (436 948 32) (item_shells) has targetname "shells_1" which is not targetted by anything.
 WARNING: entity at (512 384 282) (item_armor2) has "target" set to itself
 WARNING: entity at (512 384 282) (item_armor2) has targetname "armor" which is not targetted by anything.
-12 entities read, 0 are lights.
+WARNING: entity at (1376 -464 32) (item_rockets) has "target" set to itself
+WARNING: entity at (1376 -464 32) (item_rockets) has targetname "rocket_ammo_3" which is not targetted by anything.
+WARNING: entity at (-384 -448 32) (item_rockets) has "target" set to itself
+WARNING: entity at (-384 -448 32) (item_rockets) has targetname "rocket_ammo_2" which is not targetted by anything.
+WARNING: entity at (1376 1200 32) (item_rockets) has "target" set to itself
+WARNING: entity at (1376 1200 32) (item_rockets) has targetname "rocket_ammo_4" which is not targetted by anything.
+WARNING: entity at (-384 1216 32) (item_rockets) has "target" set to itself
+WARNING: entity at (-384 1216 32) (item_rockets) has targetname "rocket_ammo_1" which is not targetted by anything.
+WARNING: entity at (992 1344 32) (weapon_rocketlauncher) has "target" set to itself
+WARNING: entity at (992 1344 32) (weapon_rocketlauncher) has targetname "rocket_launcher_1" which is not targetted by anything.
+WARNING: entity at (32 1344 32) (weapon_rocketlauncher) has "target" set to itself
+WARNING: entity at (32 1344 32) (weapon_rocketlauncher) has targetname "rocket_launcher_2" which is not targetted by anything.
+WARNING: entity at (32 -576 32) (weapon_rocketlauncher) has "target" set to itself
+WARNING: entity at (32 -576 32) (weapon_rocketlauncher) has targetname "rocket_launcher_3" which is not targetted by anything.
+WARNING: entity at (992 -576 32) (weapon_rocketlauncher) has "target" set to itself
+WARNING: entity at (992 -576 32) (weapon_rocketlauncher) has targetname "rocket_launcher_4" which is not targetted by anything.
+WARNING: entity at (440 992 32) (item_rockets) has "target" set to itself
+WARNING: entity at (440 992 32) (item_rockets) has "target" set to itself
+WARNING: entity at (440 -240 32) (item_rockets) has "target" set to itself
+WARNING: entity at (440 -240 32) (item_rockets) has targetname "rocket_ammo_6" which is not targetted by anything.
+WARNING: entity at (568 -240 32) (item_rockets) has "target" set to itself
+WARNING: entity at (568 -240 32) (item_rockets) has targetname "rocket_ammo_7" which is not targetted by anything.
+WARNING: entity at (572 992 32) (item_rockets) has unmatched "target" (rocket_ammo_8)
+WARNING: entity at (572 992 32) (item_rockets) has targetname "a" which is not targetted by anything.
+25 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
@@ -37,7 +61,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing miniaturetribblesmap.bsp as BSP version 29
-0.262 seconds elapsed
+0.287 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
