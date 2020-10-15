@@ -14,29 +14,50 @@ Opened WAD: E:/TempWorkspace/GitHub/miniature-tribble/wads/prototype_1_2.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
           179 brushes
-          253 planes
+          251 planes
 ---- CSGFaces ----
          1050 brushfaces
-         1374 csgfaces
-         1189 mergedfaces
+         1373 csgfaces
+         1188 mergedfaces
 ---- SolidBSP ----
-         1013 split nodes
-          417 solid leafs
-          597 empty leafs
+         1004 split nodes
+          414 solid leafs
+          591 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         3289 leaffaces
-         3043 nodefaces
+         3273 leaffaces
+         3032 nodefaces
 ---- Portalize ----
-          597 vis leafs
-          597 vis clusters
-         1641 vis portals
+          591 vis leafs
+          591 vis clusters
+         1621 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-416 -448 56), no filling performed.
-Leak file written to miniaturetribblesmap.pts
+          213 outleafs
+---- MergeAll ----
+         1169 mergefaces
+---- SolidBSP ----
+          602 split nodes
+          302 solid leafs
+          301 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2378 leaffaces
+         1849 nodefaces
+---- Portalize ----
+          301 vis leafs
+          301 vis clusters
+          853 vis portals
+---- Tjunc ----
+         1292 world edges
+         6199 edge points
+         1370 edges added by tjunctions
+            0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
@@ -45,20 +66,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote miniaturetribblesmap.bsp
-          505 planes            10100
-         3821 vertexes          45852
-         1013 nodes             24312
-           24 texinfo             960
-         3043 faces             60860
-         1852 clipnodes         14816
-          598 leafs             16744
-         3289 marksurfaces       6578
-        12081 surfedges         48324
-         7828 edges             31312
+          497 planes             9940
+         2490 vertexes          29880
+          602 nodes             14448
+           20 texinfo             800
+         1849 faces             36980
+         1842 clipnodes         14736
+          302 leafs              8456
+         2378 marksurfaces       4756
+         8694 surfedges         34776
+         4348 edges             17392
             6 textures          49228
               lightdata             0
               visdata               0
-              entdata             834
+              entdata            1203
 
-0.227 seconds elapsed
-Peak memory usage: 13672098 (13.0M)
+0.283 seconds elapsed
+Peak memory usage: 11474668 (10.9M)
