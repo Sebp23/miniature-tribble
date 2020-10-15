@@ -181,7 +181,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "81"
+"_tb_id" "97"
 // brush 0
 {
 ( 640 -640 267.62790697674433 ) ( 640 -639.44444444444457 267.62790697674433 ) ( 640 -640 268.50830564784047 ) 64_blood_2 0 0 0 1 1
@@ -413,7 +413,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "82"
+"_tb_id" "98"
 // brush 0
 {
 ( 352 -640 281.71428571428567 ) ( 352 -640 282.59468438538215 ) ( 352 -640.5555555555552 281.71428571428567 ) 64_blood_2 0 0 0 1 1
@@ -645,7 +645,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "83"
+"_tb_id" "99"
 // brush 0
 {
 ( 640 1248 267.62790697674433 ) ( 640 1248.5555555555554 267.62790697674433 ) ( 640 1248 268.50830564784047 ) 64_blood_2 0 0 0 1 1
@@ -877,7 +877,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "84"
+"_tb_id" "100"
 // brush 0
 {
 ( 352 1248 281.71428571428567 ) ( 352 1248 282.59468438538215 ) ( 352 1247.4444444444448 281.71428571428567 ) 64_blood_2 0 0 0 1 1
@@ -1109,7 +1109,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "85"
+"_tb_id" "101"
 // brush 0
 {
 ( 632 512 268 ) ( 632 509.33333333333348 268 ) ( 632 512 266.36111111111092 ) 128_honey_3 0 0 0 1 1
@@ -1245,7 +1245,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "86"
+"_tb_id" "102"
 // brush 0
 {
 ( 384 256 32 ) ( 384 253.33333333333326 32 ) ( 384 256 30.361111111111121 ) 128_honey_3 0 0 0 1 1
@@ -1381,7 +1381,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "87"
+"_tb_id" "103"
 // brush 0
 {
 ( 544 256 96 ) ( 544 256 32 ) ( 544 384 32 ) 128_honey_3 0 0 0 1 1
@@ -1517,7 +1517,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "88"
+"_tb_id" "104"
 // brush 0
 {
 ( 384 504 268 ) ( 384 504 266.36111111111092 ) ( 384 504.50000000000006 268 ) 128_honey_3 0 0 0 1 1
@@ -1660,23 +1660,23 @@
 // entity 10
 {
 "classname" "info_player_deathmatch"
-"origin" "-416 1216 56"
+"origin" "-464 1216 56"
 }
 // entity 11
 {
 "classname" "info_player_deathmatch"
-"origin" "-416 -448 56"
+"origin" "-464 -448 56"
 }
 // entity 12
 {
 "classname" "info_player_deathmatch"
-"origin" "1440 -448 56"
+"origin" "1488 -448 56"
 "angle" "180"
 }
 // entity 13
 {
 "classname" "info_player_deathmatch"
-"origin" "1432 1216 56"
+"origin" "1480 1216 56"
 "angle" "180"
 }
 // entity 14
