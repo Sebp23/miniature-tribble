@@ -3,40 +3,61 @@ Input file: miniaturetribblesmap.map
 Output file: miniaturetribblesmap.bsp
 
 ---- LoadMapFile ----
-         1050 faces
-          179 brushes
-           20 entities
-            6 unique texnames
-           37 texinfo
+         1110 faces
+          191 brushes
+           28 entities
+            7 unique texnames
+           45 texinfo
 
-Opened WAD: E:/TempWorkspace/GitHub/miniature-tribble/wads/rogue.wad
-Opened WAD: E:/TempWorkspace/GitHub/miniature-tribble/wads/prototype_1_2.wad
+Opened WAD: Q:/Workspace/GitHub/miniature-tribble/wads/prototype_1_2.wad
+Opened WAD: Q:/Workspace/GitHub/miniature-tribble/wads/rogue.wad
 Processing hull 0...
 ---- Brush_LoadEntity ----
-          179 brushes
-          253 planes
+          191 brushes
+          275 planes
 ---- CSGFaces ----
-         1050 brushfaces
-         1374 csgfaces
-         1189 mergedfaces
+         1110 brushfaces
+         1467 csgfaces
+         1264 mergedfaces
 ---- SolidBSP ----
-         1013 split nodes
-          417 solid leafs
-          597 empty leafs
+         1142 split nodes
+          480 solid leafs
+          663 empty leafs
             0 water leafs
             0 detail leafs
             0 detail illusionary leafs
             0 detail fence leafs
             0 illusionary visblocker leafs
-         3289 leaffaces
-         3043 nodefaces
+         3572 leaffaces
+         3252 nodefaces
 ---- Portalize ----
-          597 vis leafs
-          597 vis clusters
-         1641 vis portals
+          663 vis leafs
+          663 vis clusters
+         1908 vis portals
 ---- FillOutside ----
-*** WARNING 10: Reached occupant at (-416 -448 56), no filling performed.
-Leak file written to miniaturetribblesmap.pts
+          205 outleafs
+---- MergeAll ----
+         1251 mergefaces
+---- SolidBSP ----
+          652 split nodes
+          311 solid leafs
+          342 empty leafs
+            0 water leafs
+            0 detail leafs
+            0 detail illusionary leafs
+            0 detail fence leafs
+            0 illusionary visblocker leafs
+         2518 leaffaces
+         1926 nodefaces
+---- Portalize ----
+          342 vis leafs
+          342 vis clusters
+         1037 vis portals
+---- Tjunc ----
+         1369 world edges
+         6454 edge points
+         1412 edges added by tjunctions
+            0 faces added by tjunctions
 ---- MakeFaceEdges ----
 ---- GrowRegions ----
 Processing hull 1...
@@ -45,20 +66,20 @@ Processing hull 2...
 *** WARNING 19: No entities in empty space -- no filling performed (hull 2)
 ---- WriteBSPFile ----
 Wrote miniaturetribblesmap.bsp
-          505 planes            10100
-         3821 vertexes          45852
-         1013 nodes             24312
-           24 texinfo             960
-         3043 faces             60860
-         1852 clipnodes         14816
-          598 leafs             16744
-         3289 marksurfaces       6578
-        12081 surfedges         48324
-         7828 edges             31312
-            6 textures          49228
+          576 planes            11520
+         2576 vertexes          30912
+          652 nodes             15648
+           27 texinfo            1080
+         1926 faces             38520
+         2143 clipnodes         17144
+          343 leafs              9604
+         2518 marksurfaces       5036
+         9020 surfedges         36080
+         4511 edges             18044
+            7 textures          71032
               lightdata             0
               visdata               0
-              entdata             834
+              entdata            2116
 
-0.227 seconds elapsed
-Peak memory usage: 13672098 (13.0M)
+0.312 seconds elapsed
+Peak memory usage: 12637684 (12.1M)

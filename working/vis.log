@@ -1,7 +1,17 @@
 ---- vis / ericw-tools v0.18.1 ----
-running with 6 threads
+running with 8 threads
 testlevel = 4
 LoadBSPFile: 'miniaturetribblesmap.bsp'
 BSP is version 29
-LoadPortals: couldn't read miniaturetribblesmap.prt
-No vising performed.
+   342 leafs
+  1037 portals
+Calculating Base Vis:
+0....1....2....3....4....5....6....7....8....9....
+Calculating Full Vis:
+0....1....2....3....4....5....6....7....8....9....
+average leafs visible: 228
+c_noclip: 0
+c_chains: 2883875
+visdatasize:13537  compressed from 14706
+Writing miniaturetribblesmap.bsp as BSP version 29
+  1.5 seconds elapsed
