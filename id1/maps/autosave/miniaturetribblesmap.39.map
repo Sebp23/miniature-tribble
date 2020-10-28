@@ -1078,7 +1078,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "1017"
+"_tb_id" "1009"
 // brush 0
 {
 ( 848 -436 267.62790697674433 ) ( 848 -435.44444444444457 267.62790697674433 ) ( 848 -436 268.50830564784047 ) rock5_1 0 0 0 1 1
@@ -1310,7 +1310,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "1018"
+"_tb_id" "1010"
 // brush 0
 {
 ( 560 -436 281.71428571428567 ) ( 560 -436 282.59468438538215 ) ( 560 -436.5555555555552 281.71428571428567 ) rock5_1 0 0 0 1 1
@@ -1542,7 +1542,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "1019"
+"_tb_id" "1011"
 // brush 0
 {
 ( 848 1054 267.62790697674433 ) ( 848 1054.5555555555554 267.62790697674433 ) ( 848 1054 268.50830564784047 ) rock5_1 0 0 0 1 1
@@ -1774,7 +1774,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "stairs"
-"_tb_id" "1020"
+"_tb_id" "1012"
 // brush 0
 {
 ( 560 1054 281.71428571428567 ) ( 560 1054 282.59468438538215 ) ( 560 1053.4444444444448 281.71428571428567 ) rock5_1 0 0 0 1 1
@@ -2042,7 +2042,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "1021"
+"_tb_id" "1013"
 // brush 0
 {
 ( 840 512 26 ) ( 840 512 268 ) ( 840 416 268 ) metal4_5 0 -6.64463 0 1 1.02542
@@ -2178,7 +2178,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "1022"
+"_tb_id" "1014"
 // brush 0
 {
 ( 592 512 26 ) ( 592 512 268 ) ( 592 416 268 ) metal4_5 -42.6667 34.3802 0 0.75 0.75625
@@ -2314,7 +2314,7 @@
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "1023"
+"_tb_id" "1015"
 // brush 0
 {
 ( 752 256 26 ) ( 752 256 268 ) ( 752 248 268 ) metal4_5 0 -6.64463 0 1 1.02542
@@ -2449,35 +2449,35 @@
 {
 "classname" "light_torch_small_walltorch"
 "origin" "604 384 124"
-"_tb_group" "1023"
+"_tb_group" "1015"
 }
 // entity 9
 {
 "classname" "light_torch_small_walltorch"
 "origin" "720 500 124"
 "angle" "270"
-"_tb_group" "1023"
+"_tb_group" "1015"
 }
 // entity 10
 {
 "classname" "light_torch_small_walltorch"
 "origin" "720 260 124"
 "angle" "90"
-"_tb_group" "1023"
+"_tb_group" "1015"
 }
 // entity 11
 {
 "classname" "light_torch_small_walltorch"
 "origin" "836 384 124"
 "angle" "180"
-"_tb_group" "1023"
+"_tb_group" "1015"
 }
 // entity 12
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
 "_tb_name" "vault_wall"
-"_tb_id" "1024"
+"_tb_id" "1016"
 // brush 0
 {
 ( 592 512 26 ) ( 592 512 268 ) ( 592 504 268 ) metal4_5 0 -6.64463 0 1 1.02542
@@ -2663,6 +2663,10 @@
 "classname" "item_armor2"
 "origin" "720 386 291"
 "angle" "0"
+"target" "armor"
+"targetname" "armor"
+"use" "SUB_regen"
+"delay" ""
 }
 // entity 23
 {
@@ -2780,6 +2784,10 @@
 {
 "classname" "weapon_lightning"
 "origin" "720 384 26"
+"use" "SUB_regen"
+"delay" "30"
+"target" "lightning"
+"targetname" "lightning"
 }
 // entity 36
 {
