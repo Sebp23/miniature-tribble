@@ -45,10 +45,10 @@ Final count: 34 lights 0 suns in use.
 0....1....2....3....4....5....6....7....8....9....
 Lighting Completed.
 
-lightdatasize: 89495
+lightdatasize: 89494
 0 switchable light styles (32 max)
 Writing miniaturetribblesmap.bsp as BSP version 29
-0.713 seconds elapsed
+0.627 seconds elapsed
 
 stats:
 1.548799 lights tested, 0.787040 hits per sample point
