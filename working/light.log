@@ -1,29 +1,37 @@
 ---- light / ericw-tools v0.18.1 ----
 Raytracing backend: Embree
-running with 8 threads
+running with 6 threads
 LoadBSPFile: 'miniaturetribblesmap.bsp'
 BSP is version 29
 --- LoadEntities ---
-WARNING: entity at (1360 -424 32) (weapon_rocketlauncher) has "target" set to itself
-WARNING: entity at (1360 -424 32) (weapon_rocketlauncher) has targetname "rocket_launcher1" which is not targetted by anything.
-WARNING: entity at (1336 -400 32) (item_rockets) has "target" set to itself
-WARNING: entity at (1336 -400 32) (item_rockets) has targetname "rocket_ammo1" which is not targetted by anything.
-WARNING: entity at (1336 1176 32) (item_rockets) has "target" set to itself
-WARNING: entity at (1336 1176 32) (item_rockets) has targetname "rocket_ammo2" which is not targetted by anything.
-WARNING: entity at (-360 1176 32) (item_rockets) has "target" set to itself
-WARNING: entity at (-360 1176 32) (item_rockets) has targetname "rocket_ammo3" which is not targetted by anything.
-WARNING: entity at (-360 -440 32) (item_rockets) has "target" set to itself
-WARNING: entity at (-360 -440 32) (item_rockets) has targetname "rocket_ammo4" which is not targetted by anything.
-WARNING: entity at (1352 1240 32) (weapon_rocketlauncher) has "target" set to itself
-WARNING: entity at (1352 1240 32) (weapon_rocketlauncher) has targetname "rocket_launcher2" which is not targetted by anything.
-WARNING: entity at (-344 1232 32) (weapon_rocketlauncher) has "target" set to itself
-WARNING: entity at (-344 -464 32) (weapon_rocketlauncher) has "target" set to itself
-20 entities read, 0 are lights.
+WARNING: entity at (1450 -302 32) (weapon_rocketlauncher) has "target" set to itself
+WARNING: entity at (1450 -302 32) (weapon_rocketlauncher) has targetname "rocket_launcher1" which is not targetted by anything.
+WARNING: entity at (1426 -285 32) (item_rockets) has "target" set to itself
+WARNING: entity at (1426 -285 32) (item_rockets) has targetname "rocket_ammo1" which is not targetted by anything.
+WARNING: entity at (1410 1004 32) (item_rockets) has "target" set to itself
+WARNING: entity at (1410 1004 32) (item_rockets) has targetname "rocket_ammo2" which is not targetted by anything.
+WARNING: entity at (-23 1020 32) (item_rockets) has "target" set to itself
+WARNING: entity at (-23 1020 32) (item_rockets) has targetname "rocket_ammo3" which is not targetted by anything.
+WARNING: entity at (-23 -254 32) (item_rockets) has "target" set to itself
+WARNING: entity at (-23 -254 32) (item_rockets) has targetname "rocket_ammo4" which is not targetted by anything.
+WARNING: entity at (1426 1061 32) (weapon_rocketlauncher) has "target" set to itself
+WARNING: entity at (1426 1061 32) (weapon_rocketlauncher) has targetname "rocket_launcher2" which is not targetted by anything.
+WARNING: entity at (-7 1070 32) (weapon_rocketlauncher) has "target" set to itself
+WARNING: entity at (-7 -276 32) (weapon_rocketlauncher) has "target" set to itself
+WARNING: entity at (652 906 32) (item_rockets) has "target" set to itself
+WARNING: entity at (652 906 32) (item_rockets) has targetname "rocket_ammo5" which is not targetted by anything.
+WARNING: entity at (761 906 32) (item_rockets) has "target" set to itself
+WARNING: entity at (761 906 32) (item_rockets) has targetname "rocket_ammo6" which is not targetted by anything.
+WARNING: entity at (761 -151 32) (item_rockets) has "target" set to itself
+WARNING: entity at (761 -151 32) (item_rockets) has targetname "rocket_ammo7" which is not targetted by anything.
+WARNING: entity at (652 -151 32) (item_rockets) has "target" set to itself
+WARNING: entity at (652 -151 32) (item_rockets) has targetname "rocket_ammo8" which is not targetted by anything.
+24 entities read, 0 are lights.
 --- OptionsSummary ---
 Embree_TraceInit: Embree version: 2.15.0
 Embree_TraceInit:
 	0 sky faces
-	1926 solid faces
+	1733 solid faces
 	0 filtered faces
 	0 shadow-casting skip faces
 SetupLights: 0 initial lights
@@ -39,7 +47,7 @@ Lighting Completed.
 lightdatasize: 0
 0 switchable light styles (32 max)
 Writing miniaturetribblesmap.bsp as BSP version 29
-0.244 seconds elapsed
+0.227 seconds elapsed
 
 stats:
 0.000000 lights tested, 0.000000 hits per sample point
