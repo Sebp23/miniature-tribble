@@ -57,7 +57,7 @@ Wrote miniaturetribblesmap.bsp
            17 textures         150352
               lightdata             0
               visdata               0
-              entdata            5794
+              entdata            5940
 
-0.399 seconds elapsed
-Peak memory usage: 26166782 (25.0M)
+0.414 seconds elapsed
+Peak memory usage: 26166974 (25.0M)
